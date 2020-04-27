@@ -1,0 +1,99 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+	.header-kanan li a{
+		padding: 10px 18px;
+	}
+	
+	.extra-1 {
+		height: 600px;
+	}
+
+	.anggota-team  {
+		width:25%;
+		float:left;
+		margin:auto;
+	}
+	.anggota-team .detail {
+		padding: 0px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	
+}
+
+
+
+
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+	.header-kanan {
+		display: none;
+	}
+	
+	.header-logo {
+		margin-top: 15px;
+
+	}
+		
+	.box .menu-icon {
+		display: block;
+		margin-top: 15px;
+	}
+	
+	.box .menu-icon:hover {
+		color: black;
+	}
+	
+	.utama h1{
+		font-size: 50px;
+	}
+
+	.utama h2{
+		font-size: 24px;
+	}
+	
+	.btn {
+		width:80%;
+		display: block;
+		margin:auto;
+		margin-bottom:10px;
+		padding: 12px 25px;
+	}
+	
+	
+	.input-animasi:focus{
+		width:100%!important;
+	}
+
+	.extra-1 {
+		height: 850px;
+	}
+
+	.anggota-team  {
+		width:50%;
+		flex: auto;
+	}
+	
+	.anggota-team .detail {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	
+	.box1{
+		width:100%
+	}
+
+	.box2{
+		width:100%
+	}
+	.box2 .input-animasi {
+		float: left;
+	}
+	.kotak .btn {
+		margin : 0px 0px 20px 0px;
+		padding: 12px 0px;
+	}
+	
+}
